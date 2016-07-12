@@ -5,4 +5,4 @@ from app import app, pages
 
 @app.route('/')
 def home():
-    return render_template('base.html')
+    return render_template('index.html')
